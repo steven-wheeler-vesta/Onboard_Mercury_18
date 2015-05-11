@@ -57,6 +57,11 @@
  * The following constants are defined presuming that BRGH=1 and BRG16=0, and
  * that the PLL is active.
  */
+
+/* The first batch of Mercury 18s were built with an 8 MHz resonator instead of 
+ * a 16 MHz one.  The following #if #else allows you to set which speed you 
+ * have.
+ */
 #if 1
 /* For Fosc = 32000000 */
 #define BAUD_115200 16
