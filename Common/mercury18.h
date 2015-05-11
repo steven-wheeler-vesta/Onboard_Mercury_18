@@ -57,10 +57,16 @@
  * The following constants are defined presuming that BRGH=1 and BRG16=0, and
  * that the PLL is active.
  */
-
+#if 1
+/* For Fosc = 32000000 */
+#define BAUD_115200 16
+#define BAUD_38400 51
+#define BAUD_19200 103
+#else
+/* For Fosc = 64000000 */
 #define BAUD_115200 34
 #define BAUD_38400 103
 #define BAUD_19200 207
-
+#endif
 
 #endif	// MERCURY18_H
