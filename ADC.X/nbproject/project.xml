@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://www.netbeans.org/ns/project/1">
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://www.netbeans.org/ns/project/1">
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>FRAM</name>
-            <creation-uuid>a0cf09c7-f6b6-4f19-ae56-d8c5f83f27a2</creation-uuid>
+            <name>ADC Demo</name>
+            <creation-uuid>3d54922a-01a1-40fd-a250-e98d39a9c487</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
